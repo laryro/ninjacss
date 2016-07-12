@@ -11,51 +11,78 @@
 
 <body>
 
-    <header class="container">
+    <header class="container clearfix">
 
-        <div>
+        <div class="logo-container al-left">
             <h1 class="logo">
-                <a href="#">
+                <a href="#" title="Ninja CSS">
                     <img src="./imgs/logo.svg" alt="Logo do site" />
                 </a>
                 <span class="alt-logo">Ninja CSS</span>
             </h1>
         </div>
 
-        <div class="">
-            <div class="vanilla-container vanilla-container-column">
-                <div class="">
-                    <div class="vanilla-container vanilla-container-right ">
-                        <div class="option">
-                            <img src="./imgs/user.svg" alt="Icone de usuario" />
-                            Entrar
-                        </div>
-                    </div>
+        <div class="nav-container al-right">
+            <div class="user-account">
+                <div class="option">
+                    <img src="./imgs/user.svg" class="user-icon" alt="Icone de usuario" />
+                    Entrar
                 </div>
-                <div class="">
-                    <div class="vanilla-container vanilla-container-right">
-                        <nav class="">
-                            <ul>
-                                <li><a href="#">Sobre</a></li>
-                                <li><a href="#">Quem</a></li>
-                                <li><a href="#">Missão</a></li>
-                                <li><a href="#">Contato</a></li>
-                                <li class="icon">
-                                    <a href="javascript:void(0);" onclick="togglemenu()">☰</a>
-                                </li>
-                            </ul>
-                        </nav>
-                        <div class="option search">
-                            <input type="search" name="search" placeholder="Buscar">
-                        </div>
-                    </div>
+            </div>
+            <div>
+                <nav class="main-menu">
+                    <ul>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Quem</a></li>
+                        <li><a href="#">Missão</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li class="menu-icon">
+                            <a href="javascript:void(0);" onclick="togglemenu()">☰</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="option search">
+                    <img src="./imgs/busca.svg">
+                    <input type="search" name="search" placeholder="Buscar">
                 </div>
             </div>
         </div>
-
     </header>
-    <section class="container clearfix">
-        <div class="row clearfix">
+    <main class="container clearfix">
+        <section>
+            <article class="col-3">
+                <header>
+                    <a href="#">
+                        <figure>
+                            <img src="./imgs/ilovecss.png" alt="I love CSS">
+                        </figure>
+                    </a>
+                </header>
+                <h2><a href="#">I love CSS</a></h2>
+                <p>Mussum Ipsum, cacilds vidis litro abertis. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. in elementis mé pra quem é amistosis quis leo. Copo furadis é disculpa de bebadis, arcu quam euismod magna.</p>
+            </article>
+            <article class="col-3">
+                <header>
+                    <a href="#">
+                        <figure>
+                            <img src="./imgs/ilovecss.png" alt="I love CSS">
+                        </figure>
+                    </a>
+                </header>
+                <h2><a href="#">I love CSS</a></h2>
+                <p>Mussum Ipsum, cacilds vidis litro abertis. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. in elementis mé pra quem é amistosis quis leo. Copo furadis é disculpa de bebadis, arcu quam euismod magna.</p>
+            </article>
+            <article class="col-3">
+                <header>
+                    <a href="#">
+                        <figure>
+                            <img src="./imgs/ilovecss.png" alt="I love CSS">
+                        </figure>
+                    </a>
+                </header>
+                <h2><a href="#">I love CSS</a></h2>
+                <p>Mussum Ipsum, cacilds vidis litro abertis. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. in elementis mé pra quem é amistosis quis leo. Copo furadis é disculpa de bebadis, arcu quam euismod magna.</p>
+            </article>        
             <article class="col-3">
                 <header>
                     <a href="#">
@@ -89,52 +116,12 @@
                 <h2><a href="#">I love CSS</a></h2>
                 <p>Mussum Ipsum, cacilds vidis litro abertis. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. in elementis mé pra quem é amistosis quis leo. Copo furadis é disculpa de bebadis, arcu quam euismod magna.</p>
             </article>
-        </div>
-        <div class="row clearfix">
-            <article class="col-3">
-                <header>
-                    <a href="#">
-                        <figure>
-                            <img src="./imgs/ilovecss.png" alt="I love CSS">
-                        </figure>
-                    </a>
-                </header>
-                <h2><a href="#">I love CSS</a></h2>
-                <p>Mussum Ipsum, cacilds vidis litro abertis. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. in elementis mé pra quem é amistosis quis leo. Copo furadis é disculpa de bebadis, arcu quam euismod magna.</p>
-            </article>
-            <article class="col-3">
-                <header>
-                    <a href="#">
-                        <figure>
-                            <img src="./imgs/ilovecss.png" alt="I love CSS">
-                        </figure>
-                    </a>
-                </header>
-                <h2><a href="#">I love CSS</a></h2>
-                <p>Mussum Ipsum, cacilds vidis litro abertis. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. in elementis mé pra quem é amistosis quis leo. Copo furadis é disculpa de bebadis, arcu quam euismod magna.</p>
-            </article>
-            <article class="col-3">
-                <header>
-                    <a href="#">
-                        <figure>
-                            <img src="./imgs/ilovecss.png" alt="I love CSS">
-                        </figure>
-                    </a>
-                </header>
-                <h2><a href="#">I love CSS</a></h2>
-                <p>Mussum Ipsum, cacilds vidis litro abertis. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Nullam volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. in elementis mé pra quem é amistosis quis leo. Copo furadis é disculpa de bebadis, arcu quam euismod magna.</p>
-            </article>
-        </div>
-    </section>
+        </section>
+    </main>
     <script>
-function togglemenu() {
-    document.getElementsByTagName("ul")[0].classList.toggle("responsive");
-}
-
-    document.getElementsByTagName("a")
-</script>
-
-
+    function togglemenu() {
+        document.getElementsByTagName("ul")[0].classList.toggle("responsive");
+    }
+    </script>
 </body>
-
 </html>
